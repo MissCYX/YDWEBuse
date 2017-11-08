@@ -1,0 +1,166 @@
+.jdm {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 固定搜索栏 */
+.jdm-search {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #c91523;
+  z-index: 10;
+}
+
+/* logo */
+.jdm-search .jdm-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 56px;
+  height: 21px;
+  background-position: 0 -109px;
+
+  background-image: url("../images/jd-sprites.png");
+  background-size: 200px 200px;
+}
+
+/* 搜索框 */
+.jdm-search .search-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-left: 75px;
+  padding-right: 50px;
+  /*
+    box-sizing
+      值: content-box 你不能规定div的总尺寸  盒子的尺寸 = css中写的width或height + padding+border
+      值: border-box  你写的尺寸是多少  那么盒子总尺寸就是多少 盒子的尺寸 = css中写的width或height = padding+ border + 可变的内容
+  */
+  box-sizing: border-box;
+}
+
+.jdm-search .search-box i.icon-search {
+  position: absolute;
+  top: 10px;
+  left: 85px;
+  width: 20px;
+  height: 20px;
+  background-position: -60px -109px;
+
+
+  background-image: url("../images/jd-sprites.png");
+  background-size: 200px 200px;
+}
+
+.jdm-search input {
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #f7f7f7;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.jdm-search .jdm-login {
+  position: absolute;
+  top: 0;
+  right: 10p
+  line-height: 40px;
+  font-size: 15px;
+  color: #fff;
+}
+
+
+/* 滚动的内容 */
+.jdm-content {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 轮播图 */
+.jdm-carousel {
+  width: 100%;
+}
+
+.jdm-carousel img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+/* 导航 */
+.jdm-nav {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 10px;
+}
+
+.jdm-nav ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+.jdm-nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.jdm-nav a {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+}
+
+.jdm-nav img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.jdm-nav b {
+  display: block;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* 底部工具栏 */
+.jdm-toolbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  z-index: 10;
+}
+
+.jdm-toolbar ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.jdm-toolbar li {
+  flex: 1;
+  height: 100%;
+}
+
+.jdm-toolbar a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.jdm-toolbar img {
+  width: auto;
+  height: 100%;
+  vertical-align: middle;
+}
