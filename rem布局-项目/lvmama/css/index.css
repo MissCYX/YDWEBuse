@@ -1,0 +1,281 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  list-style: none;
+  font-weight: normal;
+}
+#header {
+  height: 0.6875rem;
+  width: 100%;
+  border-bottom: 1px solid #dddddd ;
+  background-color: #fff ;
+  position: relative;
+  text-align: center;
+  line-height: 0.6875rem;
+  font-size: 0.265625rem;
+}
+#header span {
+  color: #d3079e;
+  float: left;
+  font-size: 0.234375rem;
+  line-height: 0.6875rem;
+  margin-left: 0.1875rem;
+}
+#header .left {
+  position: absolute;
+  top: 0.3125rem;
+  left: 0.984375rem;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #d3079e;
+}
+#header .person {
+  position: absolute;
+  right: 0.15625rem;
+  top: 0.15625rem;
+  width: 0.78125rem;
+  height: 0.78125rem;
+  background: url(../images/icon/my.png) no-repeat;
+  background-size: 0.546875rem 0.546875rem;
+}
+.swipe {
+  height: 3.03125rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.swipe .swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe .swipe-wrap li {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.swipe .swipe-wrap li a {
+  display: block;
+  width: 100%;
+}
+.swipe .swipe-wrap li a img {
+  width: 100%;
+  vertical-align: middle;
+}
+.swipe .yuandian {
+  position: absolute;
+  left: 4.125rem;
+  bottom: 0.15625rem;
+}
+.swipe .yuandian .cc {
+  width: 0.3125rem;
+  height: 0.3125rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  float: left;
+  margin-right: 0.15625rem;
+}
+.swipe .yuandian .current {
+  background-color: #fff;
+}
+.container {
+  width: 100%;
+  clear: both;
+}
+.container .nav {
+  width: 100%;
+  height: 3.65625rem;
+  padding: 0.0625rem 0;
+  overflow: hidden;
+}
+.container .nav ul li {
+  float: left;
+  width: 33.333%;
+  height: 1.84375rem;
+  padding: 0.0625rem;
+  box-sizing: border-box;
+}
+.container .nav ul li img {
+  width: 100%;
+  height: 100%;
+}
+.container .fenlei {
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  height: 3.53125rem;
+}
+.container .fenlei li {
+  float: left;
+  width: 25%;
+  height: 1.765625rem;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  box-sizing: border-box;
+}
+.container .fenlei li img {
+  width: 100%;
+}
+.container .fenlei .fenlei li:nth-child(4n) {
+  border-right: 0;
+}
+.container .qinzi {
+  width: 100%;
+  height: 3.5rem;
+  border-bottom: 1px solid #dddddd;
+  box-sizing: border-box;
+  margin-top: 0.25rem;
+  margin-bottom: 0.234375rem;
+}
+.container .qinzi img {
+  width: 100%;
+  height: 100%;
+}
+.container .qinzi .left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #dddddd;
+  box-sizing: border-box;
+}
+.container .qinzi .right {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.container .qinzi .right .top {
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  box-sizing: border-box;
+}
+.container .qinzi .right .bottom {
+  height: 50%;
+  width: 100%;
+}
+.container .hotActive {
+  width: 100%;
+  height: 8.59375rem;
+  overflow: hidden;
+}
+.container .hotActive .title {
+  width: 100%;
+  height: 0.53125rem;
+  border-bottom: 1px solid #dddddd;
+  background-color: #f1f1f1;
+  line-height: 0.59375rem;
+  padding-left: 0.234375rem;
+  color: #555;
+  box-sizing: border-box;
+}
+.container .hotActive ul li {
+  width: 100%;
+  height: 1.90625rem;
+}
+.container .hotActive ul li img {
+  width: 100%;
+  height: 100%;
+}
+.weekend .title {
+  width: 100%;
+  height: 0.703125rem;
+  background-color: #f7f7f7;
+  padding: 0 2rem;
+  margin-bottom: 0.046875rem;
+  box-sizing: border-box;
+}
+.weekend .title span {
+  width: 50%;
+  height: 0.703125rem;
+  line-height: 0.703125rem;
+  box-sizing: border-box;
+}
+.weekend .title span:last-child {
+  margin-left: 2.34375rem;
+}
+.weekend .title span a {
+  display: inline-block;
+  padding: 0 0.1875rem;
+  color: #333;
+  font-size: 15px;
+  height: 0.703125rem;
+  line-height: 0.703125rem;
+}
+.weekend .title span a:hover {
+  color: #ca0793;
+  text-decoration: none;
+  border-bottom: 2px solid #ca0793;
+}
+.weekend .content {
+  list-style: none;
+}
+.weekend .content li {
+  width: 10rem;
+  background-color: #f1f1f1;
+}
+.weekend .content li + li {
+  margin-top: 0.3125rem;
+}
+.weekend .content li a {
+  text-decoration: none;
+}
+.weekend .content li a img {
+  width: 10rem;
+}
+.weekend .content li a p {
+  background-color: #fff;
+}
+.weekend .content li a p:first-child {
+  color: #000;
+  font-size: 12px;
+  line-height: 0.421875rem;
+}
+.weekend .content li a p:last-child {
+  color: #666;
+  font-size: 14px;
+  line-height: 0.46875rem;
+  margin-bottom: 0.3125rem;
+  padding-bottom: 0.3125rem;
+}
+.weekend .more {
+  background-color: #fff;
+  height: 0.515625rem;
+  margin-top: 0.234375rem;
+  padding-left: 4.21875rem;
+}
+.weekend .more span {
+  font-size: 0.21875rem;
+  color: #333;
+}
+.weekend .more span:first-child {
+  margin-right: 0.3125rem;
+}
+footer {
+  margin-top: 0.234375rem;
+  height: 0.5rem;
+  width: 100%;
+  background-color: #d3079e;
+  position: relative;
+}
+footer span {
+  background-color: #d3079e;
+}
+footer span:first-child {
+  margin-right: 0.3125rem;
+}
+footer span:last-child {
+  position: absolute;
+  right: 0.3125rem;
+}
+footer span a {
+  color: #fff;
+}
